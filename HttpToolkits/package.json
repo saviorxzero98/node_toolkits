@@ -1,0 +1,23 @@
+{
+  "name": "node_http_toolkits",
+  "version": "1.0.0",
+  "description": "Http Toolkits for NodeJS",
+  "main": "dist/index.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "retry-axios": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "nodewatch": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "bin": "dist/index.js",
+  "author": "Marty Chen",
+  "license": "MIT"
+}
